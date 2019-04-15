@@ -109,7 +109,7 @@
                                                     <ul class="list-inline m-b-0">
 
                                                         <li class="list-inline-item">
-                                                            3 <i class="mdi mdi-format-align-left"></i>
+                                                            0 <i class="mdi mdi-format-align-left"></i>
                                                         </li>
                                                         <li class="list-inline-item">
                                                             {{ $project->comment_count }} <i class="mdi mdi-comment-outline"></i>

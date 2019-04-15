@@ -34,7 +34,7 @@
                                 </div>
                             </div>
                             <h4 class="font-600 m-b-20">{{ $project->name }}</h4>
-                            <p class="text-success text-uppercase m-b-20 font-14">{{ $project->company->name}}</p>
+                            <p class="text-success text-uppercase m-b-20 font-14"><a href="/companies/{{$project->company->id}}"> {{ $project->company->name}}</a></p>
                             <p class="text-muted">
                                 {{ $project->description }}
                             </p>
