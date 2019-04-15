@@ -6,7 +6,7 @@ This is a project management system built with Laravel
 
 ## How to use this project 
 1. Clone this git in your local environment : `git clone https://github.com/abusalehsheikh/projectM.git`
-2. Install initial laravel file in your project : `composer install`
+2. Install initial laravel files in your project directory: `composer install`
 3. Copy .env file : `copy .env.example .env`
 3. Generate app key : `php artisan key:generate`
 4. Run migration : `php artisan migrate`
