@@ -64,7 +64,7 @@
                         <div class="assign-team m-t-30">
                             <h5 class="font-600 m-b-5">Assign to</h5>
                             <div>
-                                <a href="/{{Auth::user()->id}}"> <img class="rounded-circle thumb-sm" alt="64x64" src="{{url('assets/images/avatar.jpg')}}"></a>
+                                <a href="/{{Auth::user()->id}}"> <img class="rounded-circle thumb-sm" alt="64x64" src="{{url('/upload/avatar.jpg')}}"></a>
                                 <a href="#"><span class="add-new-plus"><i class="mdi mdi-plus"></i> </span></a>
                             </div>
                         </div>

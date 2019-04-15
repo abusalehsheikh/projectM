@@ -80,7 +80,7 @@ use App\Comment;
                 <!-- User -->
                 <div class="user-box">
                     <div class="user-img">
-                        <img src="{{url('assets/images/avatar.jpg')}}" alt="user-img" title="Mat Helme" class="rounded-circle img-thumbnail img-responsive">
+                        <img src="{{url('/upload/avatar.jpg')}}" alt="user-img" title="Mat Helme" class="rounded-circle img-thumbnail img-responsive">
                         <div class="user-status online"><i class="mdi mdi-adjust"></i></div>
                     </div>
                     <h4><a href="/{{ Auth::user()->id }}">{{ Auth::user()->name }}</a> </h4>
@@ -140,7 +140,7 @@ use App\Comment;
                 <ul class="list-group list-no-border user-list text-center">
                     <li class="user-box">
                         <div class="" style="position: relative;height: 150px;width: 150px;margin: 0px auto;">
-                            <img src="assets/images/avatar.jpg" alt="user-img" title="{{ Auth::user()->name}}" class="rounded-circle img-thumbnail img-responsive">
+                            <img src="{{url('/upload/avatar.jpg')}}" alt="user-img" title="{{ Auth::user()->name}}" class="rounded-circle img-thumbnail img-responsive">
 
                         </div>
                         <h3><a href="#">{{ Auth::user()->name }}</a> </h3>

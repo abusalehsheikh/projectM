@@ -72,7 +72,7 @@ use  App\Company;
                         <div class="project-members m-b-20">
                             <span class="m-r-5 font-600">Admin :</span>
                             <a href="{{ $company->user_id }}" data-toggle="tooltip" data-placement="top" title="" data-original-title="{{User::where('id', $company->user_id)->first()->name}}">
-                                <img src="{{asset('assets/images/avatar.jpg')}}" class="rounded-circle thumb-sm" alt="friend" />
+                                <img src="{{url('/upload/avatar.jpg')}}" class="rounded-circle thumb-sm" alt="friend" />
                             </a>
                             <a class="btn btn-info btn-rounded pull-right" href="/companies/{{ $company->id }}">View Details</a>
 
