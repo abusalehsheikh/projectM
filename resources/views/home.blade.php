@@ -30,7 +30,7 @@
                             <div class="text-center">
                                 <i class=" text-pink h3 mdi mdi-comment-multiple-outline "></i>
 
-                                <h2 class="text-custom" data-plugin="counterup">{{$project->count()}}</h2>
+                                <h2 class="text-custom" data-plugin="counterup">{{$comment->count()}}</h2>
                                 <h5>Comments</h5>
 
                             </div>
