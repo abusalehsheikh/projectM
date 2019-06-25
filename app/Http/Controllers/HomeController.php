@@ -31,9 +31,9 @@ class HomeController extends Controller
 
         return view('home',[
 
-            'company'=>Company::all(),
-            'project'=>Project::all(),
-            'comment'=>Comment::all(),
+            'companies'=>Company::all(),
+            'projects'=>Project::all(),
+            'comments'=>Comment::all(),
             'users'=>User::all(),
 
             ]);
