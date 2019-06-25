@@ -60,7 +60,7 @@
                                 <a class="nav-link" href="{{ route('projects.index') }}"><i class="fas fa-briefcase"></i> Projects</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="{{ route('tasks.index') }}"><i class="fas fa-tasks"></i> Tasks</a>
+{{--                                <a class="nav-link" href="{{ route('tasks.index') }}"><i class="fas fa-tasks"></i> Tasks</a>--}}
                             </li>
 
 
@@ -77,7 +77,7 @@
 
                                     <a class="dropdown-item" href="{{ route('projects.index') }}"><i class="fas fa-briefcase"></i> All Projects</a>
 
-                                    <a class="dropdown-item" href="{{ route('tasks.index') }}"><i class="fas fa-tasks"></i> All Tasks</a>
+{{--                                    <a class="dropdown-item" href="{{ route('tasks.index') }}"><i class="fas fa-tasks"></i> All Tasks</a>--}}
                                     <a class="dropdown-item" href="{{ route('users.index') }}"><i class="fas fa-users"></i> All Users</a>
                                     <a class="dropdown-item" href="{{ route('roles.index') }}"><i class="fas fa-users-cog"></i> All Roles</a>
 

@@ -39,10 +39,10 @@
                     <div class="col-md-3 col-sm-12">
                         <div class="card-box widget-user">
                             <div class="text-center">
-                                <i class=" text-custom h3  mdi mdi-format-list-checkbox "></i>
+                                <i class=" text-custom h3  mdi mdi-users "></i>
 
-                                <h2 class="text-pink" data-plugin="counterup">0</h2>
-                                <h5>Tasks</h5>
+                                <h2 class="text-pink" data-plugin="counterup">{{ $users->count() }}</h2>
+                                <h5>Users</h5>
 
                             </div>
                         </div>

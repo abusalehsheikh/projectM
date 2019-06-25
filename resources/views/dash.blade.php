@@ -83,7 +83,7 @@ use App\Comment;
                         <img src="{{url('/upload/avatar.jpg')}}" alt="user-img" title="Mat Helme" class="rounded-circle img-thumbnail img-responsive">
                         <div class="user-status online"><i class="mdi mdi-adjust"></i></div>
                     </div>
-                    <h4><a href="/{{ Auth::user()->id }}">{{ Auth::user()->name }}</a> </h4>
+                    <h4><a href="#">{{ Auth::user()->name }}</a> </h4>
                 </div>
                 <!-- End User -->
 
@@ -97,9 +97,9 @@ use App\Comment;
                         <li>
                             <a href="{{('/projects')}}" class="waves-effect"><i class="mdi mdi-briefcase-outline"></i> <span> Project </span> </a>
                         </li>
-                        <li>
-                            <a href="{{('/tasks')}}" class="waves-effect"><i class=" mdi mdi-format-list-checkbox "></i> <span> Tasks </span> </a>
-                        </li>
+{{--                        <li>--}}
+{{--                            <a href="{{('/tasks')}}" class="waves-effect"><i class=" mdi mdi-format-list-checkbox "></i> <span> Tasks </span> </a>--}}
+{{--                        </li>--}}
 
 
 

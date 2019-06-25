@@ -28,16 +28,13 @@ class HomeController extends Controller
      */
     public function index()
     {
-        $company = Company::all();
-        $project = Project::all();
-        $comment = Comment::all();
-
 
         return view('home',[
 
-            'company'=>$company,
-            'project'=>$project,
-            'comment'=>$comment,
+            'company'=>Company::all(),
+            'project'=>Project::all(),
+            'comment'=>Comment::all(),
+            'users'=>User::all(),
 
             ]);
     }
