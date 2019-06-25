@@ -39,7 +39,7 @@
                     <div class="col-md-3 col-sm-12">
                         <div class="card-box widget-user">
                             <div class="text-center">
-                                <i class=" text-custom h3  mdi mdi-users "></i>
+                                <i class=" text-custom h3  mdi  mdi mdi-account-multiple"></i>
 
                                 <h2 class="text-pink" data-plugin="counterup">{{ $users->count() }}</h2>
                                 <h5>Users</h5>
@@ -48,6 +48,23 @@
                         </div>
                     </div>
 
+
+                </div>
+                <div class="row">
+                    @foreach( $users as $user)
+                    <div class="col-xl-3 col-md-6">
+                        <div class="card-box widget-user">
+                            <div>
+                                <img src="{{url('/upload/avatar.jpg')}}" class="img-responsive rounded-circle" alt="user">
+                                <div class="wid-u-info">
+                                    <h5 class="mt-0 m-b-5">{{ $user->name }}</h5>
+                                    <p class="text-muted m-b-5 font-13">{{ $user->email }}</p>
+                                    <small class="text-warning"><b>{{ $user->role->name }}</b></small>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!-- end col -->
+                    @endforeach
 
                 </div>
             </div>
